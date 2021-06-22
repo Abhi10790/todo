@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-d)1q9daayy&%#fup_$n89okri+@)y1ia9zla95&heig&!o!#z6
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'abhi10790.github.io/todo/'
+    'djapptodo.herokuapp.com', 'abhi10790.github.io'
 ]
 
 
