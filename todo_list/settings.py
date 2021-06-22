@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR=os.path.join(BASE_DIR,'templates')
 STATIC_DIR=os.path.join(BASE_DIR,'static')
 # Quick-start development settings - unsuitable for production
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-d)1q9daayy&%#fup_$n89okri+@)y1ia9zla95&heig&!o!#z6
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'djapptodo.herokuapp.com', 'abhi10790.github.io'
+    'https://djapptodo.herokuapp.com/'
 ]
 
 
